@@ -1,0 +1,36 @@
+{
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\victor\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "sklearn": "1.9.1",
+  "checks": [
+    "Base real lida; 88456 x 11; sem nulos; dez preditores explicitos",
+    "385 receitas testadas; 375 matrizes e 373 geometrias normalizadas observadas em 300 registros reais",
+    "Mean/median equivalentes sem ausentes; mean segue disponivel fora da grade",
+    "Standard media 0/desvio 1; MinMax [0,1]; Robust; one-hot binario; categoria nova; transform nao reajusta",
+    "Ausencias injetadas: media/mediana e moda; todas as colunas vazias preservadas",
+    "Rejeicao de alvo ausente e parametros invalidos",
+    "Preservar, log1p e IQR com resultados esperados; limites somente do treino; moda categorica conferida",
+    "Integracao cross_validate: dez folds estratificados; estatisticas conferidas por treino; tres metricas finitas",
+    "Preprocessador padrao na base completa: (88456, 53), 37505344 bytes",
+    "Notebook executado por nbclient; 2 imagens PNG capturadas",
+    "SHA256 da base inalterado",
+    "Notebooks 01/02 e Parquet preservados por SHA256"
+  ],
+  "sha256": "cab35783a12ab618ec03a8c3aeeac460592fc6f71225dc269c38af9085edbff9",
+  "warnings": [
+    "Bins whose width are too small (i.e., <= 1e-8) in feature 2 are removed. Consider decreasing the number of bins."
+  ],
+  "cv_smoke_means": {
+    "accuracy": 0.6666666666666667,
+    "f1": 0.2790909090909091,
+    "roc_auc": 0.5449307500778089
+  },
+  "configuration_audit": {
+    "combinations": 385,
+    "observed_representations": 375,
+    "observed_normalized_geometries": 373,
+    "rtol": 1e-07,
+    "atol": 1e-09,
+    "scope": "Diagnostic on fixed real sample; not proof for all rows/folds"
+  }
+}
