@@ -1,0 +1,10 @@
+{
+  "assinatura": "74c5cc2acacbb438d2acdb29245f0cfe3fedbcc10cea3606ef7dd29ca35c3c39",
+  "folds": 10,
+  "seed": 42,
+  "sklearn": "1.9.1",
+  "imblearn": "0.14.2",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "scipy": "1.18.1"
+}

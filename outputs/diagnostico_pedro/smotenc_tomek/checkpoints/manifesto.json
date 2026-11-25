@@ -1,0 +1,19 @@
+{
+  "assinatura": "05dd601dba55061878f156f6f55944a8aa2c3a439a86856b6561ba27892072d8",
+  "folds": 10,
+  "configs": [
+    "knn",
+    "tomek",
+    "random_oversampling",
+    "smotenc",
+    "smotenc_tomek"
+  ],
+  "seed": 42,
+  "versoes": {
+    "sklearn": "1.9.1",
+    "imblearn": "0.14.2",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1"
+  }
+}
